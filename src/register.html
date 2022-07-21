@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../dist/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="font-inter">
+    <!-- Navbar Start -->
+    <div class="container mx-auto flex h-14 max-w-full shadow-md">
+      <h1 class="flex-1 pl-4 pt-3 text-2xl font-bold text-teal-500">SxNotes</h1>
+      <h1 class="flex-1 pt-4 pr-4 text-right font-semibold text-teal-500">
+        Hai, <a href="#" class="hover:underline">User</a> |
+        <a href="../index.html" class="hover:underline">Masuk</a>
+      </h1>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Form Register Start -->
+    <section class="container mx-auto py-20">
+      <div class="container md:flex">
+        <div class="container mx-auto max-w-sm md:my-auto md:flex-1">
+          <h1 class="pl-4 pb-0 text-xl font-bold text-teal-500 md:text-2xl">
+            Daftar
+          </h1>
+          <p class="pl-4 pr-4 text-sm text-slate-500 md:text-lg">
+            Isi data dibawah ini untuk membuat Akun, Sudah punya akun? Ayo
+            <a href="../index.html" class="text-blue-600 hover:underline"
+              >masuk</a
+            >
+          </p>
+        </div>
+        <div
+          class="container m-3 mx-auto max-w-sm rounded-lg border-2 border-teal-500 p-5 shadow-md md:my-auto lg:max-w-xl"
+        >
+          <div
+            class="container m-auto w-32 transition duration-500 ease-in-out hover:scale-105"
+          >
+            <img src="../src/img/Icon.png" alt="Icon" class="-mt-5 scale-50" />
+          </div>
+          <hr
+            class="mx-2 mb-4 rounded-full border-teal-500 shadow-sm md:flex-1"
+          />
+          <div class="pl-2">
+            <!-- Nama Awal -->
+            <div class="pr-2 pb-3">
+              <form>
+                <label
+                  for="fnama"
+                  class="mb-2 text-base font-semibold text-slate-500"
+                  >Nama Awal</label
+                >
+                <input
+                  type="text"
+                  id="fnama"
+                  placeholder="Masukan Nama Awal"
+                  class="text-md peer mt-1 block w-full rounded-lg border-2 py-1 pl-2 font-sans text-slate-500 outline-none placeholder:text-sm placeholder:text-slate-300 hover:border-teal-500 focus:border-teal-500"
+                />
+              </form>
+            </div>
+
+            <!-- Nama Akhir -->
+            <div class="pr-2 pb-3">
+              <form>
+                <label
+                  for="fnama"
+                  class="mb-2 text-base font-semibold text-slate-500"
+                  >Nama Akhir</label
+                >
+                <input
+                  type="text"
+                  id="lnama"
+                  placeholder="Masukan Nama Akhir"
+                  class="text-md peer mt-1 block w-full rounded-lg border-2 py-1 pl-2 font-sans text-slate-500 outline-none placeholder:text-sm placeholder:text-slate-300 hover:border-teal-500 focus:border-teal-500"
+                />
+              </form>
+            </div>
+
+            <!-- Nama Akhir -->
+            <div class="pr-2 pb-3">
+              <form>
+                <label
+                  for="fnama"
+                  class="mb-2 text-base font-semibold text-slate-500"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Masukan Email"
+                  class="text-md peer mt-1 block w-full rounded-lg border-2 py-1 pl-2 font-sans text-slate-500 outline-none placeholder:text-sm placeholder:text-slate-300 hover:border-teal-500 focus:border-teal-500 invalid:focus:border-pink-500"
+                />
+              </form>
+            </div>
+
+            <!-- Password -->
+            <div class="pr-2 pb-3">
+              <form>
+                <label
+                  for="pwd"
+                  class="mb-2 text-base font-semibold text-slate-500"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="pwd"
+                  placeholder="Masukan Password"
+                  class="text-md peer mt-1 block w-full rounded-lg border-2 py-1 pl-2 font-sans text-slate-500 outline-none placeholder:text-sm placeholder:text-slate-300 hover:border-teal-500 focus:border-teal-500"
+                />
+              </form>
+            </div>
+
+            <!-- Nama Awal -->
+            <div class="pr-2 pb-3">
+              <form>
+                <label
+                  for="repwd"
+                  class="mb-2 text-base font-semibold text-slate-500"
+                  >Re-Password</label
+                >
+                <input
+                  type="password"
+                  id="repwd"
+                  placeholder="Masukan Ulang Password"
+                  class="text-md peer mt-1 block w-full rounded-lg border-2 py-1 pl-2 font-sans text-slate-500 outline-none placeholder:text-sm placeholder:text-slate-300 hover:border-teal-500 focus:border-teal-500"
+                />
+              </form>
+            </div>
+
+            <!-- Button -->
+            <div>
+              <button
+                class="text-md mt-2 rounded-lg bg-teal-500 py-1 px-10 font-bold text-white transition duration-500 ease-in hover:bg-teal-400 focus:ring-2 focus:ring-teal-600"
+              >
+                Daftar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
